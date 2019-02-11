@@ -32,7 +32,6 @@ p{color:#434242;}
 	.L1 .call ,h4  h5{font-size:28px;text-align:right;}
 	.call h5{margin:0;font-size:25px;}
 	.anyClass {height:455px;overflow-y:auto;}
-	.r2{padding-top:60px;}
 	table  td { width:365px;}
 	}
 @media only screen and (min-device-width:994px) and (max-device-width:1080px)
@@ -47,7 +46,6 @@ p{color:#434242;}
     font-size: 25px;}
 	.L1 .call ,h4  h5{font-size:28px;text-align:right;}.anyClass {height:455px;overflow-y:auto;}
 	table  td {width:365px;}
-	.r2{padding-top:60px;}
 }
 @media only screen and (min-device-width:870px) and (max-device-width:993px)
 {
@@ -239,7 +237,6 @@ header .logo{background-color:white;}
 @media only screen and (min-device-width:375px) and (max-width:480px){.formdiv{height:365px;}}
 @media only screen and (min-device-width:401px) and (max-width:480px){
 	.marg{margin-top:20px;}
-	.h4im img{display:none;}
 	.L1 .call img{margin-bottom: 4px;
     height: 18px;padding-top:0px;}
 	.r3 img{width:100%;}
@@ -247,7 +244,6 @@ header .logo{background-color:white;}
 }
 @media only screen and (min-device-width:481px) and (max-width:735px){
 	.marg{margin-top:20px;}
-	.h4im img{display:none;}
 	.L1 .call img{margin-bottom: 4px;
     height: 18px;padding-top:0px;}
 	.r3 img{width:100%;}
@@ -282,6 +278,7 @@ header .logo{background-color:white;}
     padding: 13px 13px 0px 6px;
     height: 65px;
 }
+.h4im img {width:40px;}
 }
 @media(max-device-width:768px){
 /*header {
@@ -319,6 +316,7 @@ header .logo{background-color:white;}
 	margin: 3px 0 3px 0;
 }
 .r3{padding-bottom:25px;}
+.r4{padding-bottom:25px;}
 }
 @media(min-device-width:768px){
 	.back {font-size: 14px;background-image: url(../images/backp.png);
@@ -335,8 +333,8 @@ header .logo{background-color:white;}
 .boxshd{box-shadow: 0 0 20px #ccc;
     padding: 9px 27px 0 10px;
     height: 55px;}
+	.r2{padding-top:30px;}
 }
-
 @media(min-device-width:769px) and (max-device-width:2560px){
 
 /*header {
@@ -368,7 +366,10 @@ header .logo{background-color:white;}
 .boxshd{box-shadow: 0 0 20px #ccc;
     padding: 9px 27px 0 10px;
     height: 55px;}
+	.r2{padding-top:40px;}
 	.r3{padding-bottom:40px;}
+	.r4{padding-bottom:40px;}
+	.swth,h4{font-size:30px;}
 }
 @media only screen and (min-device-width:576px) and (max-width:767px){
 	.swth{padding-top:80px !important;}
